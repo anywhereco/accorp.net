@@ -68,7 +68,37 @@
             letter-spacing: 4px;
             filter: drop-shadow(1px -1px 0px var(--dark-transparent)) drop-shadow(-1px 1px 0px var(--dark-transparent));
         }
+
+        .links {
+            margin-top: 10px;
+            font-size: 18px;
+        }
+
+        .links.seperator {
+            margin-top: 10px;
+            font-size: 18px;
+            content: " | ";
+            color: var(--dark-transparent);
+        }
     </style>
+    <script>
+        function addSeparators(containerId, separatorHTML) {
+            const container = document.getElementById(containerId);
+            const children = container.children;
+
+            // this loop starts at 1 since we skip the first child
+            for (let i = 1; i < children.length; i++) {
+                const separator = document.createElement('span');
+                separator.className = 'seperator';
+                separator.innerHTML = separatorHTML;
+                container.insertBefore(separator, children[i]);
+                i++;
+            }
+        }
+        document.addEventListener('DOMContentLoaded', function() {
+            addSeparators('links', ' | ');
+        });
+    </script>
 </head>
 <body>
     <main role="main">
@@ -79,7 +109,11 @@
         <div>
             <h1>anywhere connection corporation</h1>
         </div>
-        </main>
+        <div class="links" id="links">
+            <a href="https://github.com/anywhereco">github</a>
+            <a href="https://heredita.net">heredita</a>
+        </div>
+    </main>
     <footer>
         <div>webmaster contact: webmaster [at] accorp [dot] net</div>
         <div>© Anywhere Connection Corporation 2026</div>

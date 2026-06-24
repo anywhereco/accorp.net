@@ -20,16 +20,16 @@
     <title>Anywhere Connection Corporation</title>
     <style>
         :root {
-            --bg1: #8fd38f;
-            --bg2: #bacabb;
-            --accent: #3f7f40;
-            --dark: #2b2b2b;
+            --bg1: #d2c7ed;
+            --bg2: #9d98bc;
+            --accent: #4d1796;
+            --dark: #373247;
             --dark-transparent: color-mix(in srgb, var(--dark), 50% transparent);
         }
 
         html {
             height: 100%;
-            background-image: url('assets/accglobes.svg'), linear-gradient(135deg, var(--bg1), var(--bg2));
+            background-image: linear-gradient(135deg, var(--bg1), var(--bg2));
             background-size: cover;
             background-position: center;
             background-repeat: no-repeat;
@@ -57,7 +57,16 @@
             margin-top: auto;
             padding: 20px;
             text-align: center;
-            --dark-transparent: color-mix(in srgb, var(--dark), 50% transparent);
+        }
+
+        hr {
+            border: none;
+            border-top: 1px var(--dark);
+            color: var(--dark-transparent);
+            overflow: visible;
+            text-align: center;
+            height: 5px;
+            min-width: 100px;
         }
 
         h1 {
@@ -103,12 +112,9 @@
 <body>
     <main role="main">
         <div class="logo">
-            <image src="assets/logo.svg" alt="Anywhere Connection Corporation Logo" height="128"/>
+            <img src="assets/wordmark.svg" alt="Anywhere Connection Corporation Logo" height="128"/>
         </div>
-        <br />
-        <div>
-            <h1>anywhere connection corporation</h1>
-        </div>
+        <hr />
         <div class="links" id="links">
             <a href="https://github.com/anywhereco">github</a>
             <a href="https://heredita.net">heredita</a>

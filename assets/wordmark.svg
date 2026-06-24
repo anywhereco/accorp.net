@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg width="1536" height="512" version="1.1" viewBox="0 0 1536 512" xmlns="http://www.w3.org/2000/svg">
+ <g stroke-miterlimit="3">
+  <g fill="none" stroke="#4d1796" stroke-linejoin="round">
+   <circle cx="225.15" cy="256" r="168" stroke-linecap="round" stroke-width="48" style="paint-order:stroke fill markers"/>
+   <path d="m43.627 309 365.77-98.007" stroke-width="46" style="paint-order:stroke fill markers"/>
+   <path d="m76.398 210.67 299.26-79.603c67.127-21.42 117.26 66.64 102.76 163.12-8.6422 57.523-18.071 99.785 19.141 115.11" stroke-width="46" style="paint-order:stroke fill markers"/>
+  </g>
+  <g fill="#4d1796">
+   <g stroke-linecap="round" stroke-linejoin="round" stroke-width="32">
+    <text x="500.85806" y="436.22412" display="none" font-family="Outfit" font-size="512px" font-weight="600" letter-spacing="-32px" style="paint-order:stroke fill markers" xml:space="preserve"><tspan x="500.85806" y="436.22412" fill="#4d1796" font-family="Outfit" font-size="512px" font-weight="500" letter-spacing="-32px">A</tspan></text>
+    <path d="m1130.2 394.65a225 225 0 0 1-28.428-49.07 130 130 0 0 1-95.73 42.418 130 130 0 0 1-130-130 130 130 0 0 1 130-130 130 130 0 0 1 95.73 42.418 225 225 0 0 1 28.428-49.07 185 185 0 0 0-124.16-48.348 185 185 0 0 0-185 185 185 185 0 0 0 185 185 185 185 0 0 0 124.16-48.348z" style="paint-order:stroke fill markers"/>
+    <path d="m1431.4 392.65a225 225 0 0 1-28.428-49.07 130 130 0 0 1-95.73 42.418 130 130 0 0 1-130-130 130 130 0 0 1 130-130 130 130 0 0 1 95.73 42.418 225 225 0 0 1 28.428-49.07 185 185 0 0 0-124.16-48.348 185 185 0 0 0-185 185 185 185 0 0 0 185 185 185 185 0 0 0 124.16-48.348z" style="paint-order:stroke fill markers"/>
+   </g>
+   <path d="m657.12 78.369-142.51 357.83h55.971l110.58-277.63 109.46 277.63h55.895l-141.04-357.74-48.344-0.083984z" stop-color="#000000" stroke-linejoin="bevel" style="paint-order:stroke fill markers"/>
+  </g>
+  <path d="m572.86 352.82 176.07-47.178" fill="none" stroke="#4d1796" stroke-linejoin="bevel" stroke-width="52" style="paint-order:stroke fill markers"/>
+  <path d="m118.32 376.53 263.78-70.679" fill="#fff" stroke="#4d1796" stroke-linejoin="bevel" stroke-width="46" style="paint-order:stroke fill markers"/>
+ </g>
+</svg>

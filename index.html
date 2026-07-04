@@ -78,34 +78,22 @@
         }
 
         .links {
+            display: flex;
             margin-top: 10px;
             font-size: 18px;
-        }
-
-        .links.seperator {
-            margin-top: 10px;
-            font-size: 18px;
-            content: " | ";
-            color: var(--dark-transparent);
+            word-spacing: 0px;
+            & :not(:last-child)::after {
+                pointer-events: none;
+                padding: 0 4px;
+                font-size: 18px;
+                content: "|";
+                color: var(--dark-transparent);
+                display: inline-block;
+                text-decoration: none;
+            }
         }
     </style>
     <script>
-        function addSeparators(containerId, separatorHTML) {
-            const container = document.getElementById(containerId);
-            const children = container.children;
-
-            // this loop starts at 1 since we skip the first child
-            for (let i = 1; i < children.length; i++) {
-                const separator = document.createElement('span');
-                separator.className = 'seperator';
-                separator.innerHTML = separatorHTML;
-                container.insertBefore(separator, children[i]);
-                i++;
-            }
-        }
-        document.addEventListener('DOMContentLoaded', function() {
-            addSeparators('links', ' | ');
-        });
     </script>
 </head>
 <body>
